@@ -476,9 +476,9 @@ h4.tocSectionTitle {
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
 	box-sizing: border-box;
-	background-image: url(Form_Akademisk_402x71.png);
+	background-image: url(Logo_Celebrate_10_2017_402x71.png), url(Form_Akademisk_402x71.png), url(Logo_Celebrate_10_2017_402x71.png);   /* 10 årgang Jubileumslogo */
 	background-repeat: no-repeat;
-	background-position: 40%;
+	background-position: 0, 40%, 79%;  /* 10 årgang Jubileumslogo position på hver side */
 	background-size: auto 70%;
 	min-height: 5em;
     min-height: 5rem;
@@ -530,6 +530,15 @@ a.pdf:hover {
 /* Minor fixes END */
 
 /* Narrow layout */
+
+@media screen and (max-width: 68em) {  /* Trenger ikke jubileumslogo på mobilversjon */		
+#header {		
+		position: relative;
+		height: 4rem;
+		background-image: url(Form_Akademisk_402x71.png);
+		background-position: 40%;
+	}	
+}
 
 @media screen and (max-width: 50em) {
 	/* narrow HEADER START*/
