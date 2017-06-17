@@ -470,19 +470,19 @@ h4.tocSectionTitle {
 
 /* FORMakademisk header START */
 
-#header {
-	background-color: #341e4a;
-	border: none;
-	border-left: 1px solid gray;
-	border-right: 1px solid gray;
-	box-sizing: border-box;
-	background-image: url(Logo_Celebrate_10_2017_402x71.png), url(Form_Akademisk_402x71.png), url(Logo_Celebrate_10_2017_402x71.png);   /* 10 årgang Jubileumslogo */
-	background-repeat: no-repeat;
-	background-position: 0, 40%, 79%;  /* 10 årgang Jubileumslogo position på hver side */
-	background-size: auto 70%;
-	min-height: 5em;
-    min-height: 5rem;
-}
+#header {			
+	background-color: #341e4a;		
+	border: none;		
+	border-left: 1px solid gray;		
+	border-right: 1px solid gray;		
+	box-sizing: border-box;		
+	background-image: url(Logo_Celebrate_10_2017_402x71.png), url(Form_Akademisk_402x71.png), url(Logo_Celebrate_10_2017_402x71.png);   /* 10 årgang Jubileumslogo */		
+	background-repeat: no-repeat;		
+	background-position: 10%, 40%, 72%;  /* 10 årgang Jubileumslogo position på hver side */		
+	background-size: auto 53%, auto 70%, auto 53%;		
+	min-height: 5em;		
+	min-height: 5rem;		
+}	
 #headerTitle {height: auto;}
 #headerTitle a {
 	text-decoration: none;
