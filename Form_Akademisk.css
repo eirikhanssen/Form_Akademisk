@@ -531,12 +531,16 @@ a.pdf:hover {
 
 /* Narrow layout */
 
-@media screen and (max-width: 68em) {  /* Trenger ikke jubileumslogo på mobilversjon */		
+@media screen and (max-width: 70em) {  /* formakademisk.org mobilversjon */	
 #header {		
-		position: relative;
-		height: 4rem;
-		background-image: url(Form_Akademisk_402x71.png);
-		background-position: 40%;
+	background-position: 1%, 40%, 80%;
+	}	
+}
+
+@media screen and (max-width: 60em) {  /* journals.hioa.no mobilversjon */		
+#header {
+	background-image: url(Form_Akademisk_402x71.png); 
+	background-position: 40%;
 	}	
 }
 
